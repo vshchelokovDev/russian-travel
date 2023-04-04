@@ -1,0 +1,10 @@
+.place__paragraph_position_alone {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 320px) {
+  .place__paragraph_position_alone {
+    margin: 0 16px 0;
+  }
+}

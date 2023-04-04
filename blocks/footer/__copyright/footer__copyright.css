@@ -1,0 +1,21 @@
+.footer__copyright {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin: 0;
+  text-align: end;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 425px) {
+  .footer__copyright {
+    margin: 0 0 32px 0;
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

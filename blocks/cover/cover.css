@@ -1,0 +1,35 @@
+.cover {
+  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../../images/cover/__background.jpg);
+  display: flex;
+  max-width: 1184px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1.6 / 1;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 92px 48px;
+}
+
+.cover:hover {
+  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(../../images/cover/__background.jpg);
+}
+
+@media (max-width: 1279px) {
+  .cover {
+    margin: 92px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin: 90px auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover {
+    margin: 66px auto 65px;
+  }
+}
