@@ -6,4 +6,9 @@
   width: 100%;
   height: 100%;
   text-decoration: none;
+  background:rgba(42, 44, 47, .3);
+}
+
+.cover__item:hover {
+  background:rgba(42, 44, 47, .8);
 }

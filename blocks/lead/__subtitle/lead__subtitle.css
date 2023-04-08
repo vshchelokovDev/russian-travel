@@ -30,7 +30,6 @@ text-align: center;
 
 @media (min-width: 321px) and (max-width: 425px) {
   .lead__subtitle {
-    margin: 0 32px 52px;
     margin: 0 16px 40px;
     font-size: 18px;
     line-height: 20px;

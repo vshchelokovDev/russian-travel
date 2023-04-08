@@ -1,5 +1,5 @@
 .cover {
-  background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../../images/cover/__background.jpg);
+  background-image: url(../../images/cover/__background.jpg);
   display: flex;
   max-width: 1184px;
   width: 100%;
@@ -10,10 +10,6 @@
   background-size: cover;
   background-position: center;
   margin: 92px 48px;
-}
-
-.cover:hover {
-  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(../../images/cover/__background.jpg);
 }
 
 @media (max-width: 1279px) {
